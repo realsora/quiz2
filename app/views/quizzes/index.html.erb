@@ -1,0 +1,10 @@
+<h1> Today, we will have pop quizzes~! </h1>
+
+<% @quizzes.each do |quiz| %>
+  <div>
+    <h1><%= quiz.question %></h1><br />
+    <i><%= quiz.answer %></i><br />
+  </div>
+
+  <hr />
+<% end %>
